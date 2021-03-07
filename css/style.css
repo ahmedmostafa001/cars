@@ -1,0 +1,620 @@
+body{
+    
+    background: #151515;
+}
+.contaner
+{
+    width: 1270px;
+    margin: auto;
+    height: 500px
+}
+/****************************************start class header*************************************/
+.header
+{
+    margin-bottom: 20px;
+    
+}
+.header h1{
+    color:red;
+    font-family: "Palatino Linotype";
+    float:left;
+    padding-left: 30px;
+}
+.header small{
+    color:#444444;
+    font-size: small;
+}
+.header p{
+   color:#fff;
+   float:right;
+   margin-top: 30px;
+}
+.header p span:nth-of-type(1)
+{
+    color:#55acee;
+}
+.header p span:nth-of-type(2)
+{    color:#004ced;
+}
+
+/***************************************************end class header***********************************/
+
+/***************************************************start class navbar********************************/
+.navbar{
+    display: inline-block;
+    width:100%;
+    background-color: #323232;
+    color: #fff;
+    margin-top: -8px;
+}
+.navbar ul{
+    list-style: none;
+    overflow: hidden;
+    padding:0;
+}
+.navbar ul li{
+    color:#fff;
+    float: left;
+    padding-left: 60px;
+}
+.navbar ul li a{
+   color: #bcb9b9;
+   text-decoration: none;
+}
+.navbar ul li.active a
+{
+    color: #6ade59;    
+}
+.navbar ul li a:hover{
+    color: #6ade59;
+}
+/*********** search *******************/
+ 
+.navbar .top-search
+{
+     float: right;
+    margin-top: -38px;
+    margin-right: 163px;
+}  
+.navbar .top-search form .sub{
+   background-color:#a90c0c;
+   color:#fff;
+   font-weight: bold;
+  border:2px solid #a90c0c;
+  cursor: pointer;
+}
+  
+.navbar .top-search form .sear{
+    margin-left:-6px;
+    border-left:0px;  
+}
+  
+.log{
+    float: right;
+    margin-top: -53px;
+    margin-right: -346px;
+}
+.log a{
+    color: #bcb9b9;
+    text-decoration: none;
+}
+.log a:hover{
+    color: #6ade59;
+}
+/**********************************************************end class navbar******************************/
+
+/**********************************************************start drobdown********************************/
+.navbar  .log .dropdown-menu
+{
+    border-top: 0px solid #fffdfd;
+    position: absolute;
+    display: none;
+    padding-top: 29px;
+    width: 150px;
+    margin-left: -21px;
+}
+	
+.navbar  .log ul ul li
+{
+	 background-color: #8D0B0B;
+    height: 34px;
+    width: 145px;
+    line-height: 20px;
+    border: 0px solid red;
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 0px;
+}
+	
+.navbar  .log ul ul li a{
+	padding: 6px 15px;
+}
+	
+
+.dropdown-menu  li  a:hover, .dropdown-menu  li  a:focus
+{
+	background-color:#2C2B2B;
+	color:#fff;
+}
+
+.navbar  .log ul li:hover > .dropdown-menu 
+{
+	display:block; 
+}
+/*********************************************************end drobdown*****************************************/
+
+/*********************************************************start class slide************************************/
+.contaner .slide 
+{
+    display: inline-block;
+
+    height: 500px;
+    background-image:url('../image/slider.jpg');
+    text-align: center;
+    margin:10px auto;
+    background-size: cover;
+}
+.contaner .slide .back{
+    height: 390px;
+    background-color:#00000080;
+    padding-top: 110px;
+}
+.contaner .slide .back h2{
+    font-size: 50px;
+    width: 390px;
+    margin: 0 auto;
+    border-bottom: 3px solid #fff;
+    border-top:3px solid #fff;
+    color: #fff; 
+}
+.contaner .slide .back a{
+    text-decoration: none;
+    color: #fff;
+}
+.contaner .slide .back input
+{
+    background: none;
+    width: 120px;
+    margin-top: 30px;
+    height: 50px;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+/***********************************************************end class slide*********************************************/
+
+/*start class text*/
+
+.text{
+    height: 50px;
+}
+.text h1
+{
+   color: red;
+   float: left;
+}
+/************************************************************end class text**********************************************/
+
+/************************************************************start class carshow****************************************/
+.carshow
+{
+    width:100%;
+    height: 270px;
+    display: inline-block;
+}
+.carshow .view{
+    overflow: hidden
+}
+.carshow .view > div
+{
+    width: 25%;
+    float: left;
+}
+.carshow .view > div img {
+   width: 95%;
+    height: 180px;
+    margin: 0;
+   border: 1px solid #fff;
+   border-bottom-color: grey;
+}
+.carshow .border{
+    overflow: hidden
+}
+.carshow .border > div
+{
+    margin-top:-16px;
+    width: 25%;
+    float: left; 
+}
+.carshow .border > div p {
+    background-image: url('../image/border.jpg');
+    width: 98%;
+    border: 1px none #fff;
+    margin: 4px;
+    margin-top: 12px;
+    color: #fff;
+    line-height: 60px
+}
+/*****************************************end class carshow***********************************/
+
+/*****************************************start class carRepair******************************/
+.carRepair
+{
+    width: 100%;
+    height: 270px;
+    background:#332f2e;
+    margin-top:0px;
+}
+.car
+{ 
+    width: 75%;
+    padding-top: 30px;
+    float: left;
+}
+.car h1{
+    margin-right: 319px;
+    color: #fff;
+    font-size: 33px;
+    font-family: "Algerian";
+    margin-top: 28px;
+    line-height: 56px;
+}
+.car p{
+    margin-left: 24px;
+    color: #d39d33;
+    font-size: 22px;
+    font-family: "Comic Sans MS";
+    margin-top: -20px;
+}
+.car small{
+    margin-right: 72px;
+    margin-left: 42px;
+    font-size: 17px;
+    font-style: unset;
+    line-height: 20px;
+}
+.like{   
+    float: left;
+    width:22%;
+    height:100px;
+    padding-top: 10px;
+    margin-top: 90px;
+    margin-left: 15px;
+    background-color:#534D4D;
+    opacity: .3
+}
+.like p{
+    text-align: center;
+    font-size: 22px;
+    width:60%;
+    float: left;
+    color:#FFF;
+}
+.like img
+{
+    width:35%;
+}
+.like span{
+    color: blue;
+}
+.like:hover{
+    opacity:2;
+    color:blue
+}
+/************************************end class carRepair***************************/
+
+/************************************start class service*************************/
+
+.service{
+    height: 670px;
+    background:#666666;
+}
+.service .title
+{
+    padding-top:5px;
+    width:100%;
+}
+.service .title h1{
+    color:#FFF;
+    text-align: left;
+    margin-left: 35px; 
+}
+.service .title hr{
+    width:70%;
+    height: 2px;
+    margin-left: 10px;
+}
+.service .head
+{
+    padding-top:10px;
+    width:100%;
+}
+.service .head .left {
+    width:70%;
+    height:560px;
+    float: left; 
+}
+.service .head .left img{
+    height: 120px;
+    width: 100%;
+}
+.service .head .left div {
+     width:21.5%;
+     height: 350px;
+     margin-left: 27px;
+     margin-top: 15px;
+     color:#FFF;
+     text-align: left;
+     float: left;
+}
+.service .head .left div h2{
+    margin-top: 0px;
+}
+.service .head .left div p{
+    margin-top: -15px;
+}
+.service .head .left .bottom
+{
+    height: 160px;
+    width:80%;
+    display: inline-block;
+    background-color:#7d7d7d;
+    border: 1px solid #8A8080;
+}
+.service .head .left .bottom img
+{
+    float: left;
+    display: block;
+    margin: 0px;
+    height: 100%;
+    width: 40%;
+}
+.service .head .left .bottom a{
+    text-decoration: none;
+}
+.service .head .left .bottom input 
+{
+    background-color: #a90c0c;
+    color: #fff;
+    height: 39px;
+    width: 16%;
+    margin-left: 33px;
+    border: 1px hidden black;
+    text-align: center;
+    line-height: 32px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.service .head .left .bottom input:hover
+{
+   background-color: black;
+
+}
+.service .head .left .bottom .d2{
+    width:50%;
+    display: inline-block;
+    line-height: 5px;
+}
+.service .head .left .bottom .d2 p{
+    width:50%;
+    float: left;
+}
+.service .head .left .bottom .d2 span{
+    color:#9b0500;
+    font-size: 90px;
+}
+.service .head .right
+{
+    width:29%;
+    height:560px;
+    float: left;
+    color:#FFF;
+}
+.service .head .right div{
+    width:80%; height: 112px;
+    background-color:#353535;
+    padding-top:0.1px;
+    margin: 20px auto;
+}
+.service .head .right div h2{
+    font-size: 20px;
+    color:red;
+}
+.service .head .right div p{
+    margin-top: -10px;
+    
+}
+/*************************************end class service*************************/
+
+/*************************************start class protofile********************/
+.protofile{
+    height: 210px;
+    background:#fff;
+    padding-top: 20px;
+}
+.protofile .logo{
+    overflow: hidden
+}
+.protofile .logo >div
+{
+    width: 25%;
+    float: left;
+}
+.protofile .logo > div img {
+    width: 85%;
+    height: 150px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-bottom-color: grey;
+    opacity: .7
+}
+.protofile .logo > div img:hover{
+    opacity: 1
+}
+/********************************end class protofile*********************/
+
+
+
+/********************************start class footer1********************/
+.footer1{
+    height: 258px;
+    background-image: url('../image/741.jpg');
+    background-size: cover;
+}
+.footer1 .back2
+{
+    background-color: rgba(2, 0, 0, 0.66);
+    height: 237px;
+    padding-top: 21px;
+}
+.one{
+   float:left;
+   width: 33.333%;
+}
+.one .up h3{
+    color: #fff;
+    font-size: 17px;
+    font-family: "Bodoni MT";
+    margin-right: 34px;
+    margin-top: 11px;
+}
+.one .up img{
+    margin-right: 145px;
+    opacity: 1;
+    width: 43px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 6px;
+}
+.one .up p{
+    color: #fff;
+    margin-top: -24px;
+    margin-left: 86px;
+    line-height: 0px;
+    font-size: medium;
+    font-family: "Times New Roman (Headings CS)";
+    letter-spacing: 1px;
+}
+.one .up small{
+    color: #fff;
+    margin-left: 125px;
+    font-size: small;
+    letter-spacing: 1px;
+}
+.one .down img{
+    margin-right: 146px;
+    opacity: 1;
+    width: 41px;
+    height: 38px;
+    border-radius: 50%;
+    margin-top: 41px;
+}
+.one .down p{
+    color: #fff;
+    margin-top: -18px;
+    margin-left: 87px;
+    line-height: 0px;
+    font-size: medium;
+    font-family: "Magneto";
+    letter-spacing: 1px;
+}
+
+.two{
+    float:left;
+    width: 33.333%;
+}
+.two h3{
+    color: #fff;
+    font-size: 17px;
+    font-family: "Andalus";
+    letter-spacing: 2px;
+    margin-right: 34px;
+    margin-bottom: 21px;
+}
+.two img{
+    margin-right: 145px;
+    opacity: .4;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: -3px;
+}
+.two img:hover{
+    opacity: 1
+}
+.two p{
+   color: #fff;
+    margin-top: -21px;
+    margin-left: 30px;
+    line-height: 0px;
+    font-size: smaller;
+    font-family: "Buxton Sketch";
+    letter-spacing: 1px;
+}
+.three{
+     float:left;
+     width: 33.333%;
+}
+.three h3{
+    color: #fff;
+    font-size: 17px;
+    font-family: "Times New Roman";
+    margin-right: 34px;
+    margin-bottom: 21px;
+}
+.three img{
+    margin-left: -11px;
+    opacity: 1;
+    width: 75%;
+    height: 60%;
+    margin-top: 1px;
+}
+/*****************************end class footer1**************************/
+
+/*****************************start class footer*************************/
+.footer{
+    height: 50px;
+    background:black;
+}
+.left
+{
+    width: 50%;
+     float: left;
+}
+.left ul{
+    list-style: none;
+    overflow: hidden;
+    padding:0;
+    float: left;
+}
+.left ul li{
+    color:#fff;
+    padding-left: 60px;
+    float: left;
+}
+.left ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.left ul li a:hover{
+color: #6ade59;
+}
+.footer .right{
+    float: right;
+    margin-right: 40px;
+    color:#fff;
+}
+.footer .right span{
+    color: #a90c0c;
+    font-family: "Lucida Handwriting"
+}
+/************************************end class footer***************************/
+
+
+
+
+
+
+
+
+
